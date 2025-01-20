@@ -1,0 +1,57 @@
+*{
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: pink;
+    color: white;
+}
+
+.tabela{
+    overflow-x: auto;
+    width: 100%;
+    margin: 50px 0px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.tabela,th,td{
+    border: 2px white solid;
+    padding: 20px;
+}
+
+.tabela th{
+    color: black;
+}
+
+.tabela caption{
+    padding: 20px;
+    background-color: palevioletred;
+}
+
+.tabela a{
+    color: purple;
+}
+
+.tabela a:hover {
+   color: rgba(128, 0, 128, 0.445);
+}
+
+.tabela a:active{
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    .tabela,th,td{
+        border: 2px white solid;
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .tabela caption{
+        padding: 0px;
+        background-color: palevioletred;
+    }
+}
