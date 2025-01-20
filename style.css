@@ -75,7 +75,7 @@ body{
     }
 
     .tabela caption{
-        padding: 0px;
+        padding: 4px;
         background-color: palevioletred;
     }
 }
